@@ -371,13 +371,13 @@ input[type="text"]:hover, textarea:hover{
 
 /*Se usan los MediaQuery*/
 
-@media (max-width: 1277px){/*cuando la pantalla es de 1277px o menos*/
+@media (max-width: 1277px){
     .center{
         width: 85%;
     }
 }
 
-@media (max-width: 1178px){/*cuando la pantalla es de 1178px o menos*/
+@media (max-width: 1178px){
     .center{
         width: 95%;
     }
@@ -412,25 +412,11 @@ input[type="text"]:hover, textarea:hover{
         width: 75%;
     }
 
-}
-
-@media (max-width:940px){
-
-    .center {
-        width: 97%;
-    }
-
-    #logo img{
-        margin-right: -2px;
-        height: 55px;
-    }
-
     #logo {
         width: auto;
     }
 
-    #menu{
-
+    #menu {
         width: auto;
     }
 }
@@ -451,6 +437,10 @@ input[type="text"]:hover, textarea:hover{
        width: 300px;
        margin: 0px auto;
        margin-top: 20px;
+    }
+
+    #logo img{
+        height: 50px;
     }
 
     #content{
